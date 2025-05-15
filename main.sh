@@ -10,9 +10,5 @@ PS1='\[\033[37;1m\]\u\[\033[0m\]@\[\033[31;1m\]\H\[\033[0m\] \[\033[90;1m\](\D{%
 shopt -s cdspell
 shopt -s dirspell
 
-export LESS="-R"
-export MANPAGER="less -R"
-export CLICOLOR_FORCE=1
-
 neofetch
 
