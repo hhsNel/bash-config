@@ -12,3 +12,6 @@ export LESS_TERMCAP_us=$'\E[1;32m'
 
 export LS_COLORS="*config.h=01;36:*config.def.h=01;36:$LS_COLORS"
 
+
+export PATH=$PATH:/opt/binaryninja-free/
+

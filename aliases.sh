@@ -6,3 +6,5 @@ alias getncgs="ad -c 5 -n -e nekos -d -s 5000000 -h -r -V -O -x 0 -y 0 -b"
 alias ls="ls --color=auto -F"
 alias grep="grep --color=auto"
 
+alias xcpy="xclip -selection clipboard"
+
