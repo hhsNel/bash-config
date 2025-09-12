@@ -13,5 +13,3 @@ shopt -s cdspell
 shopt -s dirspell
 set -o vi
 
-neofetch
-

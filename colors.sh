@@ -1,0 +1,16 @@
+    echo -en "\e]P0000000" #black
+    echo -en "\e]P87f7f7f" #darkgrey
+    echo -en "\e]P1009f00" #darkred
+    echo -en "\e]P900ff00" #red
+    echo -en "\e]P2559400" #darkgreen
+    echo -en "\e]PA9fbf00" #green
+    echo -en "\e]P3aaba00" #brown
+    echo -en "\e]PBffbf00" #yellow
+    echo -en "\e]P4ff7f00" #darkblue
+    echo -en "\e]PCffff00" #blue
+    echo -en "\e]P500009f" #darkmagenta
+    echo -en "\e]PD0000ff" #magenta
+    echo -en "\e]P69f009f" #darkcyan
+    echo -en "\e]PEff00ff" #cyan
+    echo -en "\e]P79f0000" #lightgrey
+    echo -en "\e]PFff0000" #white
