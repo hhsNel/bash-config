@@ -3,7 +3,7 @@ cdir=$(HOME)/config/bash-config
 
 dir: $(files)
 	mkdir -p $(cdir)
-	cp $(files) $(cdir)
+	if [ "$(PWD)" != "$(cdir)" ]; then cp $(files) $(cdir); fi
 
 install: dir
 	echo "source $(cdir)/main.sh" > $(HOME)/.bashrc
@@ -12,4 +12,4 @@ install: dir
 clean:
 	rm -rf $(cdir)
 
-.PHONY: install dir lean
+.PHONY: install dir clean
