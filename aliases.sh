@@ -8,3 +8,5 @@ alias grep="grep --color=auto"
 
 alias xcpy="xclip -selection clipboard"
 
+alias vi="vim"
+
