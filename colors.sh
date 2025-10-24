@@ -14,3 +14,4 @@
     echo -en "\e]PEff00ff" #cyan
     echo -en "\e]P79f0000" #lightgrey
     echo -en "\e]PFff0000" #white
+
