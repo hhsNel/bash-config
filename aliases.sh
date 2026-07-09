@@ -4,9 +4,13 @@ alias getcgs="ad -c 5 -N -e nekos -d -s 5000000 -h -r -V -O -x 0 -y 0 -b"
 alias getncgs="ad -c 5 -n -e nekos -d -s 5000000 -h -r -V -O -x 0 -y 0 -b"
 
 alias ls="ls --color=auto -F"
+alias tree="tree -F"
 alias grep="grep --color=auto"
 
 alias xcpy="xclip -selection clipboard"
 
 alias vi="vim"
+
+alias clera="clear"
+alias clrea="clear"
 

@@ -10,6 +10,7 @@ export LESS_TERMCAP_us=$'\E[1;32m'
 
 export LS_COLORS="*config.h=01;36:*config.def.h=01;36:$LS_COLORS"
 
+export LIBVIRT_DEFAULT_URI=qemu:///system
 
-export PATH=$PATH:/opt/binaryninja-free/
+export CFLAGS="-std=c99 -Wall -Wextra -Werror -Wshadow -Wno-missing-field-initializers -Wno-unused-parameter -fstack-protector-strong"
 

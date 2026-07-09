@@ -8,6 +8,7 @@ dir: $(files)
 install: dir
 	echo "source $(cdir)/main.sh" > $(HOME)/.bashrc
 	echo "source $(cdir)/main-tty.sh" > $(HOME)/.profile
+	cp inputrc "$(HOME)/.inputrc"
 
 clean:
 	rm -rf $(cdir)

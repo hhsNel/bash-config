@@ -1,0 +1,9 @@
+set keymap vi-insert
+"\C-x": "clear\C-m"
+"\C-l": "ls -la\C-m"
+"\C-g": "git status\C-m"
+
+set show-mode-in-prompt on
+set vi-ins-mode-string "(-- INSERT --) "
+set vi-cmd-mode-string "( NORMAL )     "
+
